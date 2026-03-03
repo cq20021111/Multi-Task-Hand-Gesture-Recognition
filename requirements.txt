@@ -1,0 +1,22 @@
+# Core DL framework
+torch
+torchvision
+
+# Data processing and arrays
+numpy
+Pillow
+
+# Data augmentation
+albumentations
+
+# Visualization
+matplotlib
+seaborn
+
+# Metrics and ML utils
+scikit-learn
+
+# Utilities
+tqdm
+
+
