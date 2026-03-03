@@ -59,7 +59,7 @@ python src/train.py
 *The best model weights based on validation loss will be automatically saved to `weights/best_model.pth`.*
 
 ### 4. Evaluation
-To evaluate the trained model on the Train, Validation, and Test sets. This script will output quantitative metrics (Accuracy, Box IoU, Mask IoU) and generate confusion matrices for classification performance.
+To evaluate the trained model on the Train, Validation, and Test sets. This script will output quantitative metrics and generate confusion matrices for classification performance.
 ```bash
 python src/evaluate.py
 ```
@@ -71,3 +71,4 @@ To qualitatively assess the model's performance, run the visualization script. T
 python src/visualise.py
 ```
 *The resulting visualization will be saved as `results/visualisation_best_worst.png`.*
+
